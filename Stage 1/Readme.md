@@ -1,52 +1,53 @@
-Python Stage 1 — Learning Summary
+# Python Stage 1 — Learning Summary
 
-This repository contains my Stage 1 Python learning and focused on building strong programming fundamentals and used in basic CLI applications.
+This repository contains my Stage 1 Python learning, focused on building strong programming fundamentals and applying them in basic CLI applications.
 
-Topics Covered
+## Topics Covered
 
-- Python setup, virtual environments, "pip", and "requirements.txt"
+- Python setup, virtual environments, `pip`, and `requirements.txt`
 - Variables, data types, operators, input/output
-- Conditions, loops, "break", "continue", "pass", and "range()"
-- Functions, "*args", "**kwargs", scope, and lambda
+- Conditions, loops, `break`, `continue`, `pass`, and `range()`
+- Functions, `*args`, `**kwargs`, scope, and lambda functions
 - Built-in functions
 - Lists, Tuples, Sets, and Dictionaries
-- List & Dictionary comprehensions
+- List and Dictionary comprehensions
 - String manipulation and formatting
 - Modules, packages, and custom modules
-- "math", "random", "os", and "datetime"
-- Regular Expressions ("re")
-- Error handling: "try", "except", "else", "finally", "raise"
+- `math`, `random`, `os`, and `datetime`
+- Regular Expressions (`re`)
+- Error handling: `try`, `except`, `else`, `finally`, and `raise`
 - File handling and CSV files
 - Basic file paths and working directories
 
-Projects
+## Projects
 
-CLI Calculator
+### CLI Calculator
 
 - Basic arithmetic operations
 - Functions, loops, conditions, and error handling
 
-CLI To-Do List
+### CLI To-Do List
 
 - Add, view, complete, and delete tasks
 - Lists and dictionaries
 - Error handling
 - CSV-based data persistence
-- Load/save tasks between program runs
+- Loading and saving tasks between program runs
 
-Stage 1 Goal
+The concepts covered in Stage 1 were applied while building these two CLI projects.
 
-Build a strong Python foundation and learn how to combine core concepts to create practical programs.
-used all this concepts in these 2 CLI Projects 
+## Stage 1 Goal
 
-Next Focus
+Build a strong Python foundation and learn how to combine core programming concepts to create practical applications.
 
-- OOP
+## Next Focus
+
+- Object-Oriented Programming (OOP)
 - Advanced Python
 - JSON
 - Decorators
 - Generators
 - Type Hints
-- Logging & Testing
-- HTTP/API fundamentals
+- Logging and Testing
+- HTTP/API Fundamentals
 - Python Backend Development
