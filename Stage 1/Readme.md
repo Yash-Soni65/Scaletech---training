@@ -1,6 +1,6 @@
 Python Stage 1 — Learning Summary
 
-This repository contains my Stage 1 Python learning and practice, focused on building strong programming fundamentals and basic CLI applications.
+This repository contains my Stage 1 Python learning and focused on building strong programming fundamentals and used in basic CLI applications.
 
 Topics Covered
 
@@ -37,6 +37,7 @@ CLI To-Do List
 Stage 1 Goal
 
 Build a strong Python foundation and learn how to combine core concepts to create practical programs.
+used all this concepts in these 2 CLI Projects 
 
 Next Focus
 
