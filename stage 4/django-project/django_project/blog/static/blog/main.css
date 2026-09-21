@@ -1,0 +1,195 @@
+
+/* =========================
+   Body
+   ========================= */
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* =========================
+   Navigation Bar
+   ========================= */
+
+.navbar {
+    background-color: #343a40 !important;
+    border-bottom: 4px solid #c9a227;
+    padding: 14px 0;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #c9a227 !important;
+}
+
+.nav-link {
+    color: #dddddd !important;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #c9a227 !important;
+}
+
+
+/* =========================
+   Main Blog Area
+   ========================= */
+
+main {
+    max-width: 1100px;
+}
+
+
+/* =========================
+   Blog Post
+   ========================= */
+
+.blog-post {
+    background-color: #ffffff;
+
+    /* Visible box border */
+    border: 2px solid #343a40;
+    border-left: 6px solid #c9a227;
+
+    padding: 28px;
+    margin-bottom: 28px;
+
+    border-radius: 5px;
+}
+
+.blog-post h1,
+.blog-post h2 {
+    color: #343a40;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.post-meta {
+    color: #888;
+    font-size: 14px;
+
+    border-bottom: 1px solid #dddddd;
+
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+}
+
+.blog-post p {
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Read More Button
+   ========================= */
+
+.read-more {
+    display: inline-block;
+
+    background-color: #343a40;
+    color: #ffffff;
+
+    text-decoration: none;
+
+    padding: 8px 16px;
+
+    border-radius: 3px;
+
+    margin-top: 5px;
+}
+
+.read-more:hover {
+    background-color: #c9a227;
+    color: #ffffff;
+}
+
+
+/* =========================
+   Sidebar
+   ========================= */
+
+.sidebar {
+    padding-left: 15px;
+}
+
+.sidebar-box {
+    background-color: #ffffff;
+
+    /* Visible sidebar box */
+    border: 2px solid #343a40;
+    border-top: 5px solid #c9a227;
+
+    padding: 22px;
+    margin-bottom: 25px;
+
+    border-radius: 5px;
+}
+
+.sidebar-box h3 {
+    color: #343a40;
+    font-size: 21px;
+
+    margin-bottom: 15px;
+
+    border-bottom: 1px solid #dddddd;
+
+    padding-bottom: 10px;
+}
+
+.sidebar-box p {
+    color: #555;
+
+    line-height: 1.7;
+
+    margin-bottom: 0;
+}
+
+.sidebar-link {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    color: #343a40;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.sidebar-link:hover {
+    color: #c9a227;
+}
+
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
+    background-color: #343a40;
+
+    color: #dddddd;
+
+    margin-top: 40px;
+
+    padding: 22px 0;
+
+    border-top: 4px solid #c9a227;
+}
+
+footer p {
+    margin: 0;
+
+    font-size: 14px;
+}

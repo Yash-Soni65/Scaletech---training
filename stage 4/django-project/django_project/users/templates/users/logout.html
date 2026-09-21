@@ -1,0 +1,19 @@
+
+{% extends "blog/base.html" %}
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-4 text-center">
+                    <h2 class="mb-3">You have been logged out</h2>
+                    <p class="text-muted mb-4">Thanks for visiting. You can sign in again whenever you’re ready.</p>
+                    <form action="{% url 'login' %}" method="get">
+                        <button type="submit" class="btn btn-primary">Log in again</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
