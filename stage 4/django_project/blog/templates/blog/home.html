@@ -1,0 +1,29 @@
+```html
+{% extends "blog/base.html" %}
+
+{% block content %}
+
+    {% for post in posts %}
+
+        <div class="blog-post">
+
+            <h1>{{ post.title }}</h1>
+
+            <p class="post-meta">
+                By {{ post.author }}
+            </p>
+
+            <p>
+                {{ post.content }}
+            </p>
+
+            <a href="#" class="read-more">
+                Read More
+            </a>
+
+        </div>
+
+    {% endfor %}
+
+{% endblock content %}
+```
